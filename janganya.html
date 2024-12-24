@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUAT BIYEL DARI JIDAN</title>
+  <link rel="icon" type="image/svg+xml" href="https://feeldreams.github.io/main-icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #f8f8f8;
+      text-align: center;
+    }
+
+    h1, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    #main-message {
+      margin-top: 50px;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      color: #e6f0ff;
+      text-shadow: 0 0 10px #1e3c72;
+    }
+
+    .swiper {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #112240;
+      padding: 20px;
+      text-align: center;
+      color: #d8e6ff;
+    }
+
+    .swiper-slide img {
+      max-width: 100px;
+      margin: 10px 0;
+    }
+
+    .heart {
+      font-size: 2.5rem;
+      color: #ff758f;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 1rem;
+      color: #b3c7f3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="main-message">buat biyel dari jidan </h1>
+    <p>hai, biyelku yang paling lucuuu... ini aku bikin sesuatu buat kamu karena aku pengen kamu tahu betapa pentingnya kamu buat aku.</p>
+    <p>scroll dikit ya gezz ke bawah.</p>
+  </div>
+
+  <!-- Swiper -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://feeldreams.github.io/pusn.gif" alt="sticker">
+        <h2>ALO BOCIL</h2>
+        <p>aku cuma mau bilang kalONkamu itu my big present di hidupku. aku ga pernah expect bisa kenal sama seseorang sebaik, seunik, dan secantik kamu.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://feeldreams.github.io/hearthappy.gif" alt="sticker">
+        <h2>thank u sayang</h2>
+        <p>terima kasih karena selalu ada buat aku, selalu sabar dengerin cerita-cerita aku, dan selalu bikin aku tersenyum. aku tau aku gak sempurna, tapi kamu selalu bikin aku merasa cukup.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://feeldreams.github.io/pandapanah.gif" alt="sticker">
+        <h2>untuk ke depannya...</h2>
+        <p>aku pengen kita selalu saling support yaaaa bill. apapun yang terjadi, aku janji bakal selalu ada buat kamu. kita adalah tim, dan aku gak sabar untuk terus tumbuh bareng kamu ANJAY MABAR SLEBEWWW </p>
+        <p class="heart"></p>
+      </div>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <footer>
+    <p>dari jidan, untuk biyel. </p>
+    <p>p.s. i love you so much!</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
